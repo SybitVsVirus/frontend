@@ -1,8 +1,8 @@
 <template>
-  <div class="about">
+  <div class="register">
       <v-container>
         <v-row class="text-center">
-            <v-col cols="12">About</v-col>
+            <v-col cols="12">Registrierungsformular</v-col>
         </v-row>
       </v-container>
   </div>

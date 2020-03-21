@@ -9,8 +9,7 @@
         <v-btn :to="item.path"
           v-for="item in menuItems"
           :key="item.title"
-          :text="item.type === 'text'"
-          :outlined="item.type === 'outlined'">
+          text>
           {{ item.title }}
         </v-btn>
       </v-toolbar-items>
@@ -33,11 +32,10 @@ export default {
 
   data: () => ({
     menuItems: [
-      {title: 'Über uns', path: '/about', type: 'text'},
-      {title: 'Hilfe', path: '/help', type: 'text'},
-      {title: 'Hotline freischalten', path: '/hotline', type: 'text'},
-      {title: 'Anmelden', path: '/aa', type: 'outlined'},
-      {title: 'Registrieren', path: '/bb', type: 'outlined'},
+      {title: 'Vision', path: '/vision'},
+      {title: 'Hotline einrichten', path: '/hotline'},
+      {title: 'Registrieren', path: '/register'},
+      {title: 'Anmelden', path: '/login'},
     ]
   }),
   methods: {
