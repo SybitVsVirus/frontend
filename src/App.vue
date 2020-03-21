@@ -7,6 +7,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
         <v-btn :to="item.path"
+          class="text-transform-none"
           v-for="item in menuItems"
           :key="item.title"
           text>
@@ -33,7 +34,7 @@ export default {
   data: () => ({
     menuItems: [
       {title: 'Vision', path: '/vision'},
-      {title: 'Hotline einrichten', path: '/hotline'},
+      {title: 'Weiterleitung einrichten', path: '/hotline'},
       {title: 'Registrieren', path: '/register'},
       {title: 'Anmelden', path: '/login'},
     ]
@@ -47,3 +48,6 @@ export default {
   }
 };
 </script>
+<style scoped>
+  .text-transform-none { text-transform: none !important; }
+</style>
