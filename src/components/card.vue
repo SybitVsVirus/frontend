@@ -1,9 +1,9 @@
 <template>
     <v-container>
-        <v-card class="mx-auto" max-width="344" outlined>
-            <v-img :src="image" height="200px"></v-img>
+        <v-card class="mx-auto" max-width="350" outlined tile=true>
+            <v-img :src=imageSrc height="200px"></v-img>
             <v-card-title>
-                {{ title }}
+                <b>{{ title }}</b>
             </v-card-title>
             <v-card-text class="text--primary">
                 {{ text }}
@@ -16,10 +16,15 @@
     export default {
         name: 'card',
         props: {
-            image: String, 
-            title: String, 
+            image: String,
+            title: String,
             text: String
         },
         data: () => ({}),
+        computed: {
+            imageSrc: function () {
+                return require( '@/assets/' + this.image)
+            }
+        }
     }
 </script>
