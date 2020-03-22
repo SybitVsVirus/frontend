@@ -73,7 +73,7 @@ export default {
         numberOfCallers: 0,
         numberOfCoronaCases: 0,
         numberOfCallCenterRedirections: 0,
-        date: null
+        date: Date.now()
       }
     }
   },
