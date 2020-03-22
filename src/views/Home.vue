@@ -18,6 +18,11 @@
           <p>Potenziell bieten wir zukünftig die Möglichkeit freie Kapazitäten direkt zur persönlichen Beratung und möglichen Verfeinerung der Anamnese einzusetzen. Qualifiziertes Personal im Ruhestand, in Quarantäne oder anderer Verfügbarkeit kann hierdurch effizient und dezentral eingesetzt werden und trägt somit aktiv zur Entlastung des Gesundheitssystems und zur Betreuung der Bevölkerung bei.</p>
         </v-col>
       </v-row>
+      <v-row class="mb-12">
+        <v-col lg="12">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dsLWAcCtxWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </v-col>
+      </v-row>
       <!--
       <v-row class="mb-12">
         <v-col lg="12">
@@ -91,7 +96,7 @@ export default {
   },
   created () {
     // Call API to get data
-    this.$http.get('https://xenx.de/share/')
+    this.$http.get('https://mcc1-dev.eu-central-1.elasticbeanstalk.com/call-statistics')
       .then(response => {
         if (response.data.success) {
           this.connectionDetails = response.data.data;
