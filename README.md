@@ -1,4 +1,4 @@
-# wirvsvirushackathon
+# Medizinische Erstauskunft Deutschland
 
 ## Project setup
 ```

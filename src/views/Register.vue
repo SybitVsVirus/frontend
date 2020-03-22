@@ -31,17 +31,20 @@
             </v-col>
         </v-row>
       </v-container>
+      <signup />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import card from '@/components/card.vue'
+import signup from '@/components/signup.vue'
 
 export default {
   name: 'Register',
   components: {
-    card
+    card,
+    signup
   }
 }
 </script>

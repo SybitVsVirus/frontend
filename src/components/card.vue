@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <v-card class="mx-auto" max-width="350" outlined tile=true>
+        <v-card class="mx-auto" max-width="350" outlined :tile="true">
             <v-img :src=imageSrc height="200px"></v-img>
             <v-card-title>
                 <b>{{ title }}</b>
