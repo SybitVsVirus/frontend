@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <heroBanner/>
+    <heroBanner :data="connectionDetails" />
     <welcomePage/>
     <v-container>
       <v-row class="mb-12" no-gutters>
@@ -66,6 +66,30 @@ export default {
   components: {
     heroBanner,
     welcomePage
-  }
+  },
+  data: () => {
+    return {
+      connectionDetails: {
+        numberOfCallers: 0,
+        numberOfCoronaCases: 0,
+        numberOfCallCenterRedirections: 0,
+        date: null
+      }
+    }
+  },
+  created () {
+    // Call API to get data
+    this.$http.get('http://mcc1-dev.eu-central-1.elasticbeanstalk.com/call-statistics')
+      .then(response => {
+        if (response.data.success) {
+          this.connectionDetails = response.data.data;
+          this.connectionDetails.date = Date.now();
+        }
+      })
+      .catch(error => {
+        console.log('Error', error)
+      });
+  },
+  mounted () {}
 }
 </script>

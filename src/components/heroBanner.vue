@@ -1,7 +1,9 @@
 <template>
   <div class="herobanner">
       <div class="herobanner__box">
-          Die Medizinische Erstauskunft Deutschland unterstützt Sie bei ...
+          <span class="herobanner__total">Bei der MED Hotline gingen insgesamt {{data.numberOfCallers}} Anrufe ein</span>
+          <span class="herobanner__info">Davon waren {{data.numberOfCoronaCases}} Coronaverdachtsfälle und {{data.numberOfCallCenterRedirections}} Person(en) nutzten das Angebot unseres Beratungszentrums.</span>
+          <span class="herobanner__datetime">Stand {{$moment(data.date).format('DD.MM.YYYY HH:mm')}} Uhr</span>
       </div>
   </div>
 </template>
@@ -9,6 +11,12 @@
 <script>
   export default {
     name: 'HeroBanner',
+    props: {
+      data: {
+        required: true,
+        type: Object,
+      }
+    }
   }
 </script>
 
@@ -19,7 +27,7 @@
         height: calc(100vh - 130px);
         position: relative;
     }
-    .herobanner__box{
+    .herobanner__box {
         background: rgba(255,255,255,0.75);
         display: block;
         font-size: 24px;
@@ -27,6 +35,21 @@
         padding: 32px;
         position: absolute;
         top: 35vh;
-        width: 350px;
+        width: 500px;
     }
+    .herobanner__total {
+      display: block;
+      font-size: 16px;
+      padding: 16px 0;
+    }
+    .herobanner__info {
+      display: block;
+      font-size: 16px;
+      padding: 16px 0;
+    }
+    .herobanner__datetime {
+      display: block;
+      font-size: 14px;
+    }
+
 </style>
