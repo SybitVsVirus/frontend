@@ -12,3 +12,6 @@
         name: 'pageFooter',
     }
 </script>
+<style scoped>
+    .pageFooter a {color: #000;}
+</style>
