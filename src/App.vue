@@ -49,10 +49,8 @@ export default {
   data: () => ({
     drawer: false,
     menuItems: [
-      {title: 'Vision', path: '/vision'},
       {title: 'Weiterleitung einrichten', path: '/hotline'},
       {title: 'Registrieren', path: '/register'},
-      {title: 'Anmelden', path: '/login'},
     ]
   }),
 };

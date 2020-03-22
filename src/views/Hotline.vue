@@ -12,5 +12,18 @@
             </v-col>
         </v-row>
       </v-container>
+      <pageFooter/>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import pageFooter from '@/components/pageFooter.vue'
+
+export default {
+  name: 'Register',
+  components: {
+    pageFooter,
+  }
+}
+</script>
