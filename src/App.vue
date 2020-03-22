@@ -42,15 +42,10 @@
 </template>
 
 <script>
+import 'typeface-montserrat';
 
 export default {
   name: 'App',
-
-  components: {
-  },
-  calculated: {
-  },
-
   data: () => ({
     drawer: false,
     menuItems: [
@@ -65,10 +60,12 @@ export default {
       console.log(item)
       return (item.type === 'text')
     }
-
   }
 };
 </script>
+<style>
+  * {font-family: 'Montserrat', sans-serif !important;}
+</style>
 <style scoped>
   .text-transform-none { text-transform: none !important; }
 </style>
