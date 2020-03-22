@@ -3,20 +3,10 @@
     <v-row class="text-center">
       <v-col class="mb-4">
         <h1 class="display-2 font-weight-bold mb-3">
-          Willkommen bei der Medizinische Erstauskunft Deutschland  
+          Willkommen bei der Medizinischen Erstauskunft Deutschland
         </h1>
-
-        <p class="subheading font-weight-regular">
-          Uns hier kann weiterer Text stehen
-        </p>
-      </v-col>
-
-      <v-col
-        class="mb-5"
-        cols="12"
-      >
         <h2 class="headline font-weight-bold mb-3">
-          Unterüberschrift
+          mit dem digitalen medizinischen Assistent, der für Deutschland rund um die Uhr im Einsatz ist.
         </h2>
       </v-col>
     </v-row>
@@ -26,7 +16,5 @@
 <script>
   export default {
     name: 'welcomePage',
-
-    data: () => ({}),
   }
 </script>
