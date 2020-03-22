@@ -1,14 +1,19 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import Axios from 'axios';
 import vuetify from './plugins/vuetify';
-import 'roboto-fontface/css/roboto/roboto-fontface.css'
-import '@mdi/font/css/materialdesignicons.css'
-import router from './router'
+import 'roboto-fontface/css/roboto/roboto-fontface.css';
+import '@mdi/font/css/materialdesignicons.css';
+import router from './router';
+import moment from 'moment';
 
-Vue.config.productionTip = false
+
+Vue.config.productionTip = false;
+Vue.prototype.$http = Axios;
+Vue.prototype.$moment = moment;
 
 new Vue({
-  vuetify,
-  router,
-  render: h => h(App)
+    vuetify,
+    router,
+    render: h => h(App)
 }).$mount('#app')
