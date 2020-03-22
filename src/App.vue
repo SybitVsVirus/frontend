@@ -55,12 +55,6 @@ export default {
       {title: 'Anmelden', path: '/login'},
     ]
   }),
-  methods: {
-    typeOfButton: function (item) {
-      console.log(item)
-      return (item.type === 'text')
-    }
-  }
 };
 </script>
 <style>
