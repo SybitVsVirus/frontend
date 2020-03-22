@@ -53,6 +53,7 @@
         </v-col>
       </v-row>
     </v-container>
+    <signup />
   </div>
 </template>
 
@@ -60,12 +61,14 @@
 // @ is an alias to /src
 import heroBanner from '@/components/heroBanner.vue'
 import welcomePage from '@/components/welcomePage.vue'
+import signup from '@/components/signup.vue'
 
 export default {
   name: 'Home',
   components: {
     heroBanner,
-    welcomePage
+    welcomePage,
+    signup
   },
   data: () => {
     return {

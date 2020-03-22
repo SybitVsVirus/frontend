@@ -2,9 +2,9 @@
     <v-container fluid class="pa-0 ma-0 signupcontainer">
         <v-container>
             <v-row class="signupcontainer--box" no-gutters>
-                <v-col cols="6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p></v-col>
-                <v-col cols="3" class="text-center"><v-btn color="primary">Join today</v-btn></v-col>
-                <v-col cols="3" class="text-center"><v-btn>Contact us</v-btn></v-col>
+                <v-col cols="9"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p></v-col>
+                <v-col cols="2" class="text-center"><v-btn color="primary">Join today</v-btn></v-col>
+                <v-col cols="1" class="text-center"><v-btn>Contact us</v-btn></v-col>
             </v-row>
         </v-container>
       </v-container>
