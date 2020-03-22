@@ -82,7 +82,7 @@ export default {
   },
   created () {
     // Call API to get data
-    this.$http.get('http://mcc1-dev.eu-central-1.elasticbeanstalk.com/call-statistics')
+    this.$http.get('https://xenx.de/share/')
       .then(response => {
         if (response.data.success) {
           this.connectionDetails = response.data.data;
