@@ -6,7 +6,9 @@
       <v-row class="mb-12" no-gutters>
         <v-col lg="10">
           <h2>Was ist MED und der digitale medizinische Assistent?</h2>
+
           <p>Die Medizinische Erstauskunft Deutschland übernimmt den Erstkontakt und Vorqualifizierung einer medizinischen Kontaktaufnahme.</p>
+          <you-tube videoId="dsLWAcCtxWA" />
           <p>In der aktuellen Situation der Corona Epidemie laufen Telefonleitungen heiß, ärztliche Einrichtungen und Praxen sind am Anschlag. Bürger mit Symptomen werden unsicher. Schon ein leichtes Kratzen im Hals sorgt für starke Beunruhigung.</p>
           <p>Der digitale medizinische Assistent hilft an dieser Stelle. Er übernimmt die Kontaktaufnahme des Patienten, bevor der Anruf direkt in der Arztpraxis ankommt.</p>
           <p>Wenige entscheidende Fragen dienen zur Vorqualifizierung und zur Generierung der Handlungsempfehlung. Abhängig dieser Informationen wird der Anrufer mit Informationen versorgt oder an eine persönliche Beratung zur weiteren Anamnese oder seinen Arzt weitergeleitet. Die gesammelten Informationen werden dann der ausgewählten medizinischen Einrichtung zum aktiven Anruf bereitgestellt.</p>
@@ -18,11 +20,7 @@
           <p>Potenziell bieten wir zukünftig die Möglichkeit freie Kapazitäten direkt zur persönlichen Beratung und möglichen Verfeinerung der Anamnese einzusetzen. Qualifiziertes Personal im Ruhestand, in Quarantäne oder anderer Verfügbarkeit kann hierdurch effizient und dezentral eingesetzt werden und trägt somit aktiv zur Entlastung des Gesundheitssystems und zur Betreuung der Bevölkerung bei.</p>
         </v-col>
       </v-row>
-      <v-row class="mb-12">
-        <v-col lg="12">
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dsLWAcCtxWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </v-col>
-      </v-row>
+
       <!--
       <v-row class="mb-12">
         <v-col lg="12">
@@ -76,13 +74,15 @@
 import heroBanner from '@/components/heroBanner.vue'
 import welcomePage from '@/components/welcomePage.vue'
 import pageFooter from '@/components/pageFooter.vue'
+import youTube from '@/components/youTube.vue'
 
 export default {
   name: 'Home',
   components: {
     heroBanner,
     welcomePage,
-    pageFooter
+    pageFooter,
+    youTube
   },
   data: () => {
     return {
