@@ -16,8 +16,8 @@
             </v-col>
             <v-col cols="4">
                 <p>
-                    <small><a href="#">Datenschutz</a><br />
-                    <a href="#">Impressum</a></small>
+                    <small><a href="/datenschutz">Datenschutz</a><br />
+                    <a href="/impressum">Impressum</a></small>
                 </p>
             </v-col>
         </v-row>

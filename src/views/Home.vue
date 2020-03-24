@@ -10,10 +10,13 @@
           <p>Die Medizinische Erstauskunft Deutschland übernimmt den Erstkontakt und Vorqualifizierung einer medizinischen Kontaktaufnahme.</p>
           <you-tube videoId="dsLWAcCtxWA" />
           <p>In der aktuellen Situation der Corona Epidemie laufen Telefonleitungen heiß, ärztliche Einrichtungen und Praxen sind am Anschlag. Bürger mit Symptomen werden unsicher. Schon ein leichtes Kratzen im Hals sorgt für starke Beunruhigung.</p>
+
+          <h3>Kontaktaufnahme mit digitalem Assistenten</h3>
           <p>Der digitale medizinische Assistent hilft an dieser Stelle. Er übernimmt die Kontaktaufnahme des Patienten, bevor der Anruf direkt in der Arztpraxis ankommt.</p>
           <p>Wenige entscheidende Fragen dienen zur Vorqualifizierung und zur Generierung der Handlungsempfehlung. Abhängig dieser Informationen wird der Anrufer mit Informationen versorgt oder an eine persönliche Beratung zur weiteren Anamnese oder seinen Arzt weitergeleitet. Die gesammelten Informationen werden dann der ausgewählten medizinischen Einrichtung zum aktiven Anruf bereitgestellt.</p>
-          <p>Die Vorqualifizierung beginnend mit der Rufannahme bis zur Weiterleitung an die persönliche Beratung ist komplett softwarebasiert und beliebig skalierbar. Der digitale medizinische Assistent soll möglichst viele Situationen, die keinen Arzttermin erfordern, erkennen und direkt beantworten oder alternativ an einen persönlichen Berater weiterleiten.</p>
-          <p>&nbsp;</p>
+          <p>Die Vorqualifizierung beginnend mit der Rufannahme bis zur Weiterleitung an die persönliche Beratung ist komplett softwarebasiert und beliebig skalierbar. Der digitale medizinische Assistent soll möglichst viele Situationen erkennen, die keinen Arzttermin erfordern und direkt beantworten - oder alternativ an einen persönlichen Berater weiterleiten.</p>
+
+          <h3>Unser Ziel</h3>
           <p>Unser Ziel ist es den Arbeitsaufwand im Empfang beim Arzt zu reduzieren sowie Bürger und Patienten Handlungsempfehlungen zu ihren genannten Symptomen zu geben. Ein wichtiger Aspekt ist außerdem die Risikominimierung für das Personal der Arztpraxis, die durch gezielte Wegweisung von Corona-Verdachtspatienten, erreicht wird. Diesen Verdachtspersonen wird ein alternativer Weg als der Besuch beim Hausarzt empfohlen.</p>
           <p>In der jetzigen Situation gibt es fast täglich aktualisierte Regeln zum Verhalten im Falle eines Infektionsverdacht. Der digitale medizinische Assistent wird zentral mit Informationen versorgt und ist stehts up-to-date.</p>
           <p>Mittels dem MED bieten wir eine deutschlandweite zentrale Rufnummer, um Antworten und Empfehlungen für Personen, die selbst einen Corona Verdacht haben, zu geben.</p>
