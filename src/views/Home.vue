@@ -20,6 +20,8 @@
           <p>Unser Ziel ist es den Arbeitsaufwand im Empfang beim Arzt zu reduzieren sowie Bürger und Patienten Handlungsempfehlungen zu ihren genannten Symptomen zu geben. Ein wichtiger Aspekt ist außerdem die Risikominimierung für das Personal der Arztpraxis, die durch gezielte Wegweisung von Corona-Verdachtspatienten, erreicht wird. Diesen Verdachtspersonen wird ein alternativer Weg als der Besuch beim Hausarzt empfohlen.</p>
           <p>In der jetzigen Situation gibt es fast täglich aktualisierte Regeln zum Verhalten im Falle eines Infektionsverdacht. Der digitale medizinische Assistent wird zentral mit Informationen versorgt und ist stehts up-to-date.</p>
           <p>Mittels dem MED bieten wir eine deutschlandweite zentrale Rufnummer, um Antworten und Empfehlungen für Personen, die selbst einen Corona Verdacht haben, zu geben.</p>
+
+          <h3>Unsere Vision</h3>
           <p>Potenziell bieten wir zukünftig die Möglichkeit freie Kapazitäten direkt zur persönlichen Beratung und möglichen Verfeinerung der Anamnese einzusetzen. Qualifiziertes Personal im Ruhestand, in Quarantäne oder anderer Verfügbarkeit kann hierdurch effizient und dezentral eingesetzt werden und trägt somit aktiv zur Entlastung des Gesundheitssystems und zur Betreuung der Bevölkerung bei.</p>
         </v-col>
       </v-row>
