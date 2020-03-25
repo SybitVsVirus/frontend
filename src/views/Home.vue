@@ -4,7 +4,7 @@
     <welcomePage/>
     <v-container>
       <v-row class="mb-12" no-gutters>
-        <v-col lg="10">
+        <v-col lg="12">
           <h2>Was ist MED und der digitale medizinische Assistent?</h2>
 
           <p>Die Medizinische Erstauskunft Deutschland übernimmt den Erstkontakt und Vorqualifizierung einer medizinischen Kontaktaufnahme.</p>

@@ -1,6 +1,6 @@
 <template>
     <v-footer class="pageFooter">
-      <v-container fluid class="pa-0 ma-0">
+      <v-container >
         <v-row>
             <v-col cols="4">
                 <small>
