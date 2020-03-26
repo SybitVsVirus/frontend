@@ -2,7 +2,7 @@
     <v-footer class="pageFooter">
       <v-container >
         <v-row>
-            <v-col cols="4">
+            <v-col cols="12" sm="4">
                 <small>
                 Entwickelt im Rahmen von
                 <a href="https://wirvsvirushackathon.org/" target="_blank" rel="nofollow">
@@ -10,11 +10,11 @@
                 </a></small>
                 <small>Herausforderung: <a href="https://devpost.com/software/1_252_a_virtueller_telefonassistent" target="_blank" rel="nofollow">1_252_a_virtueller_telefonassistent</a></small>
             </v-col>
-            <v-col cols="4">
+            <v-col cols="12" sm="4">
                 <small>Auf Twitter folgen:<br />
                     <a href="https://twitter.com/MedErstauskunft" target="_blank">Medizinische Erstauskunft Deutschland</a></small>
             </v-col>
-            <v-col cols="4">
+            <v-col cols="12" sm="4">
                 <p>
                     <small><a href="/datenschutz">Datenschutz</a><br />
                     <a href="/impressum">Impressum</a></small>
