@@ -35,7 +35,7 @@
         padding: 32px;
         position: absolute;
         top: 35vh;
-        width: 500px;
+        max-width: 500px;
     }
     .herobanner__total {
       display: block;
