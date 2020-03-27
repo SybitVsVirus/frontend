@@ -27,26 +27,38 @@
         height: calc(100vh - 130px);
         position: relative;
     }
+
     .herobanner__box {
         background: rgba(255,255,255,0.75);
+        bottom: 0;
         display: block;
         font-size: 24px;
-        left: 5vw;
+        left: 0;
+        max-width: 500px;
         padding: 32px;
         position: absolute;
-        top: 35vh;
-        max-width: 500px;
+        transition: all .5s ease 0s;
     }
+
+    @media screen and (min-width: 600px) {
+      .herobanner__box {
+        bottom: 20vh;
+        left: 4vw;
+      }
+    }
+
     .herobanner__total {
       display: block;
       font-size: 16px;
       padding: 16px 0;
     }
+
     .herobanner__info {
       display: block;
       font-size: 16px;
       padding: 16px 0;
     }
+
     .herobanner__datetime {
       display: block;
       font-size: 14px;
